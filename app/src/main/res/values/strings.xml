@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">truecaller-assingment</string>
-    <string name="truecaller10thcharacterrequest">Truecaller10thCharacterRequest</string>
-    <string name="truecallerevery10thcharacterrequest">TruecallerEvery10thCharacterRequest</string>
-    <string name="truecallerwordcounterrequest">TruecallerWordCounterRequest</string>
+    <string name="app_name">Shakti Moyal</string>
+    <string name="truecaller10thcharacterrequest">10th character : </string>
+    <string name="truecallerevery10thcharacterrequest">Every 10th character :</string>
+    <string name="truecallerwordcounterrequest">Word Counter:</string>
 </resources>

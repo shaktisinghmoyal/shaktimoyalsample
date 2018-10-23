@@ -1,0 +1,27 @@
+The app follows MVVM architecture.
+Technologies used are Dagger Core and Android (Dependency Injection), Android Architecture Components,
+rxjava2 (Java and Android), OkHttp, Retrofit, GSON (Networking Parsing and Caching).
+I have used Observables and make sure that in no way is the ViewModel aware of the Activity.
+There are also tests written to verify the working of the logic.
+
+The part to ‘run 3 requests SIMULTANEOUSLY’ was a bit confusing.
+The tasks were very similar and doing them together seemed like to the way to go,
+but separation of concerns was also something I wanted to take care of.
+I ended up keeping the part common to the tasks together (that means it will only be performed once).
+Used Rx to the best of my abilities to solve as many problems as I can.
+Some decisions were taken keeping in mind that it would lead to an unnecessary run in iteration
+but was important to be utilised in Rx (Retrofit gave us string which was converted to an CharArray
+which was then converted to List to be utilised in Rx).
+
+The outputs are displayed on TextView’s as that was what the assignment required,
+though I would have definitely preferred RecyclerView for the last request.
+
+I particularly focused on the core logic and test cases. Did not focus on UI at all, as i was running out of time.
+Since the response was huge hence i took substring of the response from position 210 to 310 and displayed the content
+from the same.
+
+I am aware about the fact that having a beautiful or user friendly ui has more impact than core logic.
+But i believe this task is mostly about core logic, hence i just simply added text view to display.
+
+I have experience in java, I am still in learning phase for Kotlin. hence to display me skills i focused on putting my
+most of the time in learn and implement kotlin for this assignment. Hence did not focus much on UI part

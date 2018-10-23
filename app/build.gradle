@@ -8,7 +8,7 @@ apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.legalimpurity.truecaller_assingment"
+        applicationId "com.shakti.moyal"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -61,7 +61,7 @@ dependencies {
     implementation "io.reactivex.rxjava2:rxandroid:$project.rxAndroidVersion"
 
     // retrofit
-    compile "com.squareup.retrofit2:retrofit:$rootProject.retrofit"
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofit"
 //    implementation "com.squareup.retrofit2:converter-gson:$rootProject.retrofit"
     implementation "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:$project.rxJavaAdapter"
     implementation "com.squareup.retrofit2:converter-scalars:$rootProject.retrofit"
